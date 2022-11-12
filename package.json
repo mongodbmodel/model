@@ -1,0 +1,35 @@
+{
+  "name": "mongodb-model",
+  "version": "0.0.0",
+  "description": "MongoDB Model",
+  "main": "index.js",
+  "bin": {
+    "mongodb-model": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mongodbmodel/model.git"
+  },
+  "keywords": [
+    "mongodb",
+    "model",
+    "stream",
+    "duplex",
+    "transform",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mongodbmodel/model/issues"
+  },
+  "homepage": "https://github.com/mongodbmodel/model#readme"
+}
