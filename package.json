@@ -31,5 +31,9 @@
   "bugs": {
     "url": "https://github.com/mongodbmodel/model/issues"
   },
-  "homepage": "https://github.com/mongodbmodel/model#readme"
+  "homepage": "https://github.com/mongodbmodel/model#readme",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "vitest": "0.25.1"
+  }
 }
