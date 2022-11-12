@@ -46,9 +46,9 @@ class Base extends require("stream").Transform {
     this.setMaxListeners(Infinity);
   }
 
-  path (path = '', base = './app/controllers/http') {
-    return require('path').join(base, path)
-  }
+  // path (path = '', base = './app/controllers/http') {
+  //   return require('path').join(base, path)
+  // }
 
   /**
      * @name getFiles
