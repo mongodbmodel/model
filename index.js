@@ -21,6 +21,7 @@
  * @classdesc MongoDBModel class
  */
 
+const { MongoClient} = require('mongodb')
  require('dotenv').config()
  const Model = require('app');
 class MongoDBModel extends Model {
@@ -95,4 +96,3 @@ class MongoDBModel extends Model {
 }
 
 module.exports =  MongoDBModel;
-

@@ -1,7 +1,7 @@
 {
-  "name": "@eweah/mongodb-model",
-  "version": "0.0.10010",
-  "description": "MongoDB Model",
+  "name": "@mongodb-model/mongodb-model",
+  "version": "0.0.0",
+  "description": "mongodb-model",
   "main": "index.js",
   "bin": {
     "mongodb-model": "bin/index.js"
@@ -20,6 +20,8 @@
   },
   "keywords": [
     "mongodb",
+    "mongo",
+    "mongodb-model",
     "model",
     "stream",
     "duplex",
@@ -34,6 +36,7 @@
   "homepage": "https://github.com/mongodbmodel/model#readme",
   "dependencies": {
     "dotenv": "16.0.3",
+    "mongodb": "4.11.0",
     "vitest": "0.25.1"
   }
 }
